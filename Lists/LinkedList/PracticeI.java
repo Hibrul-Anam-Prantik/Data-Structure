@@ -56,6 +56,20 @@ public class PracticeI
         System.out.println("Last Country: " + countryNames.getLast());
         System.out.println("==========================");
 
+        System.out.println("List Size: " + countryNames.size());
+        System.out.println("==========================");
+
+        countryNames.removeFirst();
+        System.out.println(countryNames);
+        System.out.println("==========================");
+
+        countryNames.removeLast();
+        System.out.println(countryNames);
+        System.out.println("==========================");
+
+        System.out.println("List Size: " + countryNames.size());
+        System.out.println("==========================");
+
         countryNames.clear();
         System.out.println(countryNames);
         System.out.println("==========================");
