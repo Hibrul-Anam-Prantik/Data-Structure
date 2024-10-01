@@ -1,11 +1,13 @@
+package Lists;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 // import java.util.List;
 
-public class TwoDimentionalArrayList {
+public class TwoDimensionalArrayList {
     public static void main(String[] args) {
-        // It's basically an ArrayList of ArrayLists lists
+        // It's basically an ArrayList of Lists.ArrayLists lists
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> ar1 = new ArrayList<>(Arrays.asList(sc.nextInt(), sc.nextInt(), sc.nextInt()));
         System.out.println("================");

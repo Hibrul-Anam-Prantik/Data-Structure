@@ -1,10 +1,12 @@
+package Lists;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Arrays;
 
 public class ArrayLists {
     public static void main(String[] args) {
-        ArrayList<Integer> intList = new ArrayList<Integer>(); // or
+        ArrayList<Integer> intList = new ArrayList<>(); // or
         // ArrayList<Integer> intList = new ArrayList<>(); ....... <> / <Object Type>
 
         // Add Elements
@@ -53,7 +55,7 @@ public class ArrayLists {
         System.out.println("====================");
 
         // Another way of initializing
-        ArrayList<String> names = new ArrayList<>(Arrays.asList("Luffy", "zoro", "Robin", "Shanks"));
+        ArrayList<String> names = new ArrayList<>(Arrays.asList("Luffy", "Zoro", "Robin", "Shanks"));
         System.out.println(names);
         System.out.println("====================");
         names.set(3, "X");
