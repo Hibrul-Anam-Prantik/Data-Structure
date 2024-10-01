@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class ArrayLists {
     public static void main(String[] args) {
-        ArrayList<Integer> intList = new ArrayList<>(); // or
+        ArrayList<Integer> intList = new ArrayList<>();  // or
         // ArrayList<Integer> intList = new ArrayList<>(); ....... <> / <Object Type>
 
         // Add Elements
