@@ -4,7 +4,7 @@ import java.util.Stack;
 /* Given a stack and an element;
    push the element at the bottom of the given Stack
  */
-public class Practise
+public class PractiseI
 {
     public static void pushAtBottom(int data, Stack<Integer> s) {
         if(s.isEmpty()) {
