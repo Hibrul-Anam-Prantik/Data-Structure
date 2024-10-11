@@ -1,6 +1,6 @@
 package Queue;
 
-public class QueueUsingArray
+public class Queue_Array
 {
     static class Queue
     {
