@@ -7,9 +7,9 @@ public class Queue_Array
         static int[] arr;
         static int size;
         static int rear = -1;
-        Queue(int size) {
-            arr = new int[size];
-            Queue.size = size;
+        Queue(int n) {
+            arr = new int[n];
+            size = n;
         }
 
         public static boolean isEmpty() {
